@@ -33,3 +33,69 @@ img {
   max-width: 100%;
   height: auto;
 }
+ 
+
+:root { 
+  --Dark-green: rgba(30, 40, 39, 1);
+  --Black: rgba(20, 20, 20, 1);
+  --B-g-color:  #FBFBFB;
+  --Main-color: #FFFFFF;
+
+}
+
+body {
+  color: var(--Main-color);
+  background-color: var(--B-g-color);
+  font-family: 'Epilogue',sans-serif;
+  font-size: 14px;
+  Line-height: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
+}
+
+.link {
+  display: block;
+}
+
+
+.list {
+  list-style: none;
+}
+
+
+.container {
+  
+  padding: 0 20 px;
+  margin: 0 auto;
+}
+.section {
+  padding: 40px 0;
+}
