@@ -1,6 +1,7 @@
 .swiper {
   width: 266px;
   /* height: 252px; */
+  background-color: var(--Dark-green);
 }
 
 .hero {
