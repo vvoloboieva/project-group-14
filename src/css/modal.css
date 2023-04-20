@@ -1,1 +1,32 @@
 
+.form-container{
+    background-color: #ffff;
+}
+
+.name-clock {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: black;
+}
+
+.price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    color: rgba(20, 20, 20, 0.5);
+}
+
+.form-btn {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    color: #ffff;
+    background-color: black;
+    text-transform: uppercase;
+}
+
