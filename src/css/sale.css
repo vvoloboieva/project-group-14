@@ -1,3 +1,36 @@
+:root {
+  --color-black: #141414;
+  --color-dark-green: #1e2827;
+  --color-white: #ffffff;
+}
 section {
   background-color: aliceblue;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+/* списки и точки */
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+}
+img {
+  display: block;
+}
+.sale {
+  margin-bottom: 40px;
 }
