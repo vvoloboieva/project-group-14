@@ -4,5 +4,99 @@
   --color-white: #ffffff;
 }
 section {
-  background-color: aliceblue;
+  background-color: #ffffff;
+}
+
+.sale {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #141414;
+}
+
+.greenlane {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: #141414;
+}
+.text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.5);
+}
+.price-big {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  color: #141414;
+}
+.price-line {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+  text-decoration-line: line-through;
+  color: rgba(20, 20, 20, 0.5);
+}
+.text-one {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #141414;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+  .greenlane {
+    font-size: 24px;
+    line-height: 1;
+  }
+  .sale {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.25;
+    color: #141414;
+  }
+  .text-one {
+    border-top: 1px solid #141414;
+    width: 100%;
+    padding: 0.5rem 0;
+    margin-bottom: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .text-one {
+    color: #141414;
+    text-transform: uppercase;
+    position: relative;
+    width: 100%;
+    margin: 0 0 1rem;
+  }
+  .text-one::after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 1rem;
+    height: 1px;
+    background-color: #141414;
+  }
 }
