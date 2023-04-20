@@ -39,9 +39,8 @@ h1 {
 .slider-button-next {
   width: 32px;
   height: 32px;
-  border: 1px solid var(--Main-color);
-  border-radius: 8px;
-  background-color: blue;
+  /* border: 1px solid var(--Main-color);
+  border-radius: 8px; */
 }
 
 .slider-button-next {
