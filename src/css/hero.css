@@ -1,4 +1,58 @@
 .swiper {
-  width: 600px;
-  height: 300px;
+  width: 266px;
+  /* height: 252px; */
+}
+
+.hero {
+  background-color: var(--Black);
+}
+
+h1 {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+  color: var(--Main-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.swiper {
+  margin: 0;
+  margin-top: 60px;
+}
+
+.slider-button-prev,
+.slider-button-next {
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--Main-color);
+  border-radius: 8px;
+  background-color: blue;
+}
+
+.slider-button-next {
+  margin-left: 12px;
+}
+
+.slider-nav {
+  display: flex;
+}
+
+.swipe-arrow {
+  width: 32px;
+  height: 32px;
 }

@@ -1,6 +1,6 @@
 <section>
-  <h1>Welcome to our collection of premium watches</h1>
-  <p>
+  <h1 class="hero">Welcome to our collection of premium watches</h1>
+  <p class="hero-text visually-hidden">
     Our watches are not just timepieces, but also an expression of your
     personality and lifestyle. From classic designs to modern ones, we have a
     watch to suit every taste and occasion.
@@ -11,24 +11,62 @@
     <div class="swiper-wrapper">
       <!-- Slides -->
       <div class="swiper-slide">
-        <img src="./img/vite-logo.png" alt="" width="300" />
+        <img
+          src="./img/clock-menu\clock-menu-mob1.png"
+          alt="swatch slide 1"
+          width="226"
+          height="190"
+        />
       </div>
       <div class="swiper-slide">
-        <img src="./img/vite-logo.png" alt="" width="300" />
+        <img
+          src="./img/clock-menu\clock-menu-mob2.png"
+          alt="swatch slide 2"
+          width="226"
+          height="190"
+        />
       </div>
       <div class="swiper-slide">
-        <img src="./img/vite-logo.png" alt="" width="300" />
+        <img
+          src="./img/clock-menu\clock-menu-mob3.png"
+          alt="swatch slide 3"
+          width="226"
+          height="190"
+        />
       </div>
-      ...
+      <div class="swiper-slide">
+        <img
+          src="./img/clock-menu\clock-menu-mob4.png"
+          alt="swatch slide 3"
+          width="226"
+          height="200"
+        />
+      </div>
+      <div class="swiper-slide">
+        <img
+          src="./img/clock-menu\clock-menu-mob5.png"
+          alt="swatch slide 3"
+          width="266"
+          height="200"
+        />
+      </div>
     </div>
     <!-- If we need navigation buttons -->
     <div class="slider-nav">
-      <div class="slider-button-prev"></div>
-      <div class="slider-button-next"></div>
+      <div class="slider-button-prev">
+        <svg class="swipe-arrow">
+          <use href="./img/icons.svg#icon-slider-left-mobile"></use>
+        </svg>
+      </div>
+      <div class="slider-button-next">
+        <svg class="swipe-arrow">
+          <use href="./img/icons.svg#icon-slider-right-mobile"></use>
+        </svg>
+      </div>
+      <!-- If we need pagination -->
+      <!-- <div class="swiper-pagination">
+      </div> -->
     </div>
-
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
