@@ -1,2 +1,6 @@
-.test {
+:root{
+    --color-black: #141414;
+    --color-dark-green:#1E2827;
+    --color-white:#FFFFFF; 
 }
+
