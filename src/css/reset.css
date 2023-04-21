@@ -40,6 +40,7 @@ img {
   --Black: rgba(20, 20, 20, 1);
   --B-g-color:  #FBFBFB;
   --Main-color: #FFFFFF;
+  --Price-color: rgba(20, 20, 20, 0.5);
 
 }
 
@@ -92,7 +93,8 @@ button {
 
 
 .container {
-  padding: 0 20 px;
+
+  padding: 0 20px;
   margin: 0 auto;
 }
 .section {
