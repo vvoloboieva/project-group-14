@@ -1,3 +1,8 @@
+ .about-us-image {
+   width: 335px;
+   height: 365px;
+   outline: solid black;
+ }
 .about-us-title{
   color: var(--Dark-green);
   font-family: 'Epilogue';
@@ -49,7 +54,6 @@ margin-bottom: 20px;
   .about-us-paragraphs{
     display: flex;
     gap:20px;
-    /* max-width:490px; */
   }
   .about-us-text.first{
     max-width:220px;
@@ -57,8 +61,20 @@ margin-bottom: 20px;
   .about-us-text.second {
     max-width: 250px;
   }
+  .about-us-image {
+    width: 704px;
+    height: 465px;
+    outline: solid black;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-
+.container{
+  width: calc(1178px + 64px);
+}
+ .about-us-image {
+   width: 892px;
+   height: 500px;
+   outline: solid black;
+ }
 }
