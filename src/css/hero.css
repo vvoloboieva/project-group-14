@@ -44,8 +44,13 @@
   overflow: hidden;
 }
 
-.swiper {
-  margin: 0;
+.hero-swiper {
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+  display: block;
   margin-top: 60px;
 }
 
@@ -53,8 +58,8 @@
 .slider-button-next {
   width: 32px;
   height: 32px;
-  /* border: 1px solid var(--Main-color);
-  border-radius: 8px; */
+  border: 1px solid var(--Main-color);
+  border-radius: 8px;
 }
 
 .slider-button-next {
@@ -63,11 +68,13 @@
 
 .slider-nav {
   display: flex;
+  margin-top: 20px;
 }
 
 .swipe-arrow {
   width: 32px;
   height: 32px;
+  padding: 7px;
 }
 
 .hero-text {
@@ -77,5 +84,5 @@
   letter-spacing: -0.02em;
   width: 248px;
   float: right;
-  margin-bottom: 40px;
+  margin: 40px 0;
 }
