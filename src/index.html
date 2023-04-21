@@ -50,7 +50,11 @@
         // If we need pagination
         pagination: {
           el: '.slider-pagination',
-          type: 'fraction',
+          // type: 'fraction',
+          type: 'custom',
+          renderCustom: function (swiper, current, total) {
+            return current + '-' + total;
+          },
         },
 
         // Navigation arrows
