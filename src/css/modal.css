@@ -1,6 +1,15 @@
+:root { 
+    --Dark-green: rgba(30, 40, 39, 1);
+    --Black: rgba(20, 20, 20, 1);
+    --B-g-color:  #FBFBFB;
+    --Main-color: #FFFFFF;
+ }
+
+/* MAIN */
 
 .form-container{
     background-color: #ffff;
+    box-shadow: 0px 0px 223px rgba(0, 0, 0, 0.05), 0px 0px 130.6px rgba(0, 0, 0, 0.037963), 0px 0px 71.0296px rgba(0, 0, 0, 0.0303704), 0px 0px 36.2375px rgba(0, 0, 0, 0.025), 0px 0px 18.1704px rgba(0, 0, 0, 0.0196296), 0px 0px 8.77546px rgba(0, 0, 0, 0.012037);
 }
 
 .name-clock {
@@ -9,7 +18,7 @@
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.02em;
-    color: black;
+    color: var(--Black);
 }
 
 .price {
@@ -25,8 +34,20 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
-    color: #ffff;
-    background-color: black;
+    color: var(--Main-color);
+    background-color: var(--Dark-green);
     text-transform: uppercase;
 }
+
+/* PHONE */
+@media screen and (min-width: 375px){
+  .container{
+    max-width: 375px;
+  }
+
+  
+}
+
+/* ////////////PHONE////////////////// */
+
 
