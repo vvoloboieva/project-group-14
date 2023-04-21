@@ -28,9 +28,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-}
-
-:root { 
   --Dark-green: rgba(30, 40, 39, 1);
   --Black: rgba(20, 20, 20, 1);
   --B-g-color:  #FBFBFB;
