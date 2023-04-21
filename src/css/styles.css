@@ -15,33 +15,22 @@
 @import url('./modal.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+ 
   --Dark-green: rgba(30, 40, 39, 1);
   --Black: rgba(20, 20, 20, 1);
-  --B-g-color:  #FBFBFB;
-  --Main-color: #FFFFFF;
+  --B-g-color: #fbfbfb;
+  --Main-color: #ffffff;
   --Price-color: rgba(20, 20, 20, 0.5);
   --B-g-color-second: #EFEFEF;
+
 }
 
 body {
   color: var(--Main-color);
   background-color: var(--B-g-color);
-  font-family: 'Epilogue',sans-serif;
+  font-family: 'Epilogue', sans-serif;
   font-size: 14px;
-  Line-height: 18px;
+  line-height: 18px;
 }
 
 h1,
@@ -78,17 +67,30 @@ button {
   display: block;
 }
 
-
 .list {
   list-style: none;
 }
 
-
 .container {
-  
   padding: 0 20px;
   margin: 0 auto;
+  max-width: 375px;
 }
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1400px;
+    padding: 0 132px;
+  }
+}
+
 .section {
   padding: 40px 0;
 }
