@@ -8,6 +8,14 @@
   background-color: var(--Dark-green);
 }
 
+.slider-pagination {
+  text-align: right;
+}
+
+.form-container {
+  display: none;
+}
+
 .hero {
   background-color: var(--Black);
   padding-top: 69px;
@@ -60,6 +68,7 @@
   height: 32px;
   border: 1px solid var(--Main-color);
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .slider-button-next {
@@ -69,6 +78,8 @@
 .slider-nav {
   display: flex;
   margin-top: 20px;
+  width: 266px;
+  align-items: center;
 }
 
 .swipe-arrow {
@@ -140,6 +151,10 @@
     width: 40px;
     height: 40px;
     padding: 8px;
+  }
+
+  .slider-nav {
+    width: 436px;
   }
 }
 
