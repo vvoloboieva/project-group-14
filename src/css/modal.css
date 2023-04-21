@@ -46,8 +46,9 @@
 
 /* PHONE */
 @media screen and (min-width: 320px){
-  .container{
+  .form-container{
     max-width: 375px;
+    
 }
 
 .form-container{
@@ -71,7 +72,7 @@
 
   .clock{
     margin: 0 auto;
-    padding-top: 6px;
+    padding-top: 66px;
 }
 
   .i-t{
@@ -113,6 +114,7 @@
 
   .pp{
     margin-top: 12px;
+    padding-bottom: 40px;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
