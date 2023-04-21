@@ -39,6 +39,7 @@ img {
   --Black: rgba(20, 20, 20, 1);
   --B-g-color: #fbfbfb;
   --Main-color: #ffffff;
+  --Price-color: rgba(20, 20, 20, 0.5);
 }
 
 body {
@@ -88,7 +89,7 @@ button {
 }
 
 .container {
-  padding: 0 20px;
+  padding: 0 20 px;
   margin: 0 auto;
 }
 .section {
