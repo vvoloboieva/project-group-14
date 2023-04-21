@@ -29,3 +29,81 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+:root {
+  --Dark-green: rgba(30, 40, 39, 1);
+  --Black: rgba(20, 20, 20, 1);
+  --B-g-color: #fbfbfb;
+  --Main-color: #ffffff;
+  --Price-color: rgba(20, 20, 20, 0.5);
+}
+
+body {
+  color: var(--Main-color);
+  background-color: var(--B-g-color);
+  font-family: 'Epilogue', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
+}
+
+.link {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 375px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1400px;
+    padding: 0 132px;
+  }
+}
+
+.section {
+  padding: 40px 0;
+}
