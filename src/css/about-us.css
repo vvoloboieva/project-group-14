@@ -16,8 +16,50 @@
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.02em;
-    margin-bottom: 20px;
+   
 }
-.about-us-image{
-  margin-top: 40px;
+.about-us-text.first{
+margin-bottom: 20px;
+}
+
+.about-us-text.second{
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .container{
+    padding-left: 32px;
+    padding-right: 32px;;
+
+  }
+  .section{
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .about-us-content{
+    display: flex;
+  }
+  .about-us-title{
+    display: block;
+    font-size: 40px;
+    line-height: 1.1;
+    margin-right: 40px; 
+    margin-bottom: 0;
+    width: 174px;
+  }
+  .about-us-paragraphs{
+    display: flex;
+    gap:20px;
+    /* max-width:490px; */
+  }
+  .about-us-text.first{
+    max-width:220px;
+  }
+  .about-us-text.second {
+    max-width: 250px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+
 }
