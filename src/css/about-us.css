@@ -1,62 +1,62 @@
- .about-us-image {
-   width: 335px;
-   height: 365px;
-   outline: solid black;
- }
-.about-us-title{
+.about-us-image {
+  width: 335px;
+  height: 365px;
+  outline: solid black;
+}
+.about-us-title {
   color: var(--Dark-green);
   font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 1.25; 
-    letter-spacing: -0.02em;
-    margin-bottom: 40px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  margin-bottom: 40px;
 }
-.about-us-text{
+.about-us-text {
   color: var(--Black);
   font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
 }
-.about-us-text.first{
-margin-bottom: 20px;
+.about-us-text.first {
+  margin-bottom: 20px;
 }
 
-.about-us-text.second{
+.about-us-text.second {
   margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
-  .container{
+  /* .container{
     padding-left: 32px;
     padding-right: 32px;;
 
-  }
-  .section{
+  } */
+  .section {
     padding-top: 64px;
     padding-bottom: 64px;
   }
-  .about-us-content{
+  .about-us-content {
     display: flex;
   }
-  .about-us-title{
+  .about-us-title {
     display: block;
     font-size: 40px;
     line-height: 1.1;
-    margin-right: 40px; 
+    margin-right: 40px;
     margin-bottom: 0;
     width: 174px;
   }
-  .about-us-paragraphs{
+  .about-us-paragraphs {
     display: flex;
-    gap:20px;
+    gap: 20px;
   }
-  .about-us-text.first{
-    max-width:220px;
+  .about-us-text.first {
+    max-width: 220px;
   }
   .about-us-text.second {
     max-width: 250px;
@@ -69,12 +69,12 @@ margin-bottom: 20px;
 }
 
 @media screen and (min-width: 1280px) {
-.container{
+  /* .container{
   width: calc(1178px + 64px);
-}
- .about-us-image {
-   width: 892px;
-   height: 500px;
-   outline: solid black;
- }
+} */
+  .about-us-image {
+    width: 892px;
+    height: 500px;
+    outline: solid black;
+  }
 }
