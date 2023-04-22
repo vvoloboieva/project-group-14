@@ -8,10 +8,6 @@
   text-align: right;
 }
 
-/* .form-container {
-  display: none;
-} */
-
 .hero {
   background-color: var(--Black);
   padding-top: 69px;
@@ -54,6 +50,10 @@
   cursor: pointer;
 }
 
+.swiper-button-disabled {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
 .slider-button-next {
   margin-left: 12px;
 }
@@ -69,6 +69,7 @@
   width: 32px;
   height: 32px;
   padding: 7px;
+  stroke: var(--Main-color);
 }
 
 .hero-text {
