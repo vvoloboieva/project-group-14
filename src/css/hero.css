@@ -1,6 +1,5 @@
 .swiper {
   width: 266px;
-  /* height: 252px; */
   background-color: var(--Dark-green);
 }
 
@@ -50,12 +49,12 @@
   cursor: pointer;
 }
 
-.swiper-button-disabled {
-  border: 1px solid rgba(255, 255, 255, 0.5);
-}
-
 .slider-button-next {
   margin-left: 12px;
+}
+
+.swiper-button-disabled {
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .slider-nav {
@@ -129,6 +128,10 @@
     height: 40px;
     border: 1px solid var(--Main-color);
     border-radius: 8px;
+  }
+
+  .swiper-button-disabled {
+    border: 1px solid rgba(255, 255, 255, 0.5);
   }
 
   .swipe-arrow {
