@@ -21,7 +21,7 @@
   --Main-color: #ffffff;
   --Price-color: rgba(20, 20, 20, 0.5);
   --B-g-color-second: #efefef;
-  --footer-agreements-color: #C6CDD1;
+  --footer-agreements-color: #c6cdd1;
 }
 
 body {
@@ -37,7 +37,9 @@ body {
   margin: 0 auto;
   max-width: 375px;
 }
-
+.section {
+  padding: 40px 0;
+}
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -55,10 +57,6 @@ body {
   .section {
     padding: 80px 0;
   }
-}
-
-.section {
-  padding: 40px 0;
 }
 
 .visually-hidden {
