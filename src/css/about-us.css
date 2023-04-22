@@ -62,8 +62,8 @@
 
 @media screen and (min-width: 1280px) {
   .about-us-image {
-    max-width: 892px;
-    max-height: 500px;
+    width: 892px;
+    height: 500px;
     margin-left: auto;
   }
   .about-us-content {
