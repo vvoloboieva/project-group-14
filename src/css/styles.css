@@ -67,3 +67,15 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('NeueMontreal-Regular.eot');
+  src: local('Neue Montreal Regular'), local('NeueMontreal-Regular'),
+    url('../fonts/NeueMontreal-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fontsNeueMontreal-Regular.woff2') format('woff2'),
+    url('../fontsNeueMontreal-Regular.woff') format('woff'),
+    url('../fontsNeueMontreal-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

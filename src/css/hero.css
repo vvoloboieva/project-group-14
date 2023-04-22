@@ -8,10 +8,6 @@
   text-align: right;
 }
 
-/* .form-container {
-  display: none;
-} */
-
 .hero {
   background-color: var(--Black);
   padding-top: 69px;
@@ -52,6 +48,10 @@
   border: 1px solid var(--Main-color);
   border-radius: 8px;
   cursor: pointer;
+}
+
+.swiper-button-disabled {
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .slider-button-next {
