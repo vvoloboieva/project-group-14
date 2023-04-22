@@ -63,7 +63,7 @@ section {
 
 @media screen and (min-width: 375px) {
   .container {
-    width: 375px;
+    max-width: 375px;
   }
   .greenlane {
     font-size: 24px;
@@ -102,3 +102,51 @@ section {
     background-color: #141414;
   }
 }
+
+ /* TABLET */
+
+ @media screen and (min-width:768px){
+   .container{
+    max-width: 768px;
+   }
+   
+   .greenlane {
+    font-size: 24px;
+    line-height: 1;
+  }
+  .sale {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.25;
+    color: #141414;
+  }
+  .text-one {
+    border-top: 1px solid #141414;
+    width: 100%;
+    padding: 0.5rem 0;
+    margin-bottom: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .text-one {
+    color: #141414;
+    text-transform: uppercase;
+    position: relative;
+    width: 100%;
+    margin: 0 0 1rem;
+  }
+  .text-one::after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 1rem;
+    height: 1px;
+    background-color: #141414;
+  }
+
+ }
+
+ /* END TABLET */
