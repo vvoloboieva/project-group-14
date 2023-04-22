@@ -16,7 +16,7 @@
 
 :root {
   --Dark-green: rgba(30, 40, 39, 1);
-  --Black: rgba(20, 20, 20, 1);
+  --Black: #141414;
   --B-g-color: #fbfbfb;
   --Main-color: #ffffff;
   --Price-color: rgba(20, 20, 20, 0.5);
@@ -25,7 +25,7 @@
 
 body {
   color: var(--Main-color);
-  background-color: var(--B-g-color);
+  background-color: var(--Black);
   font-family: 'Epilogue', sans-serif;
   font-size: 14px;
   line-height: 18px;
