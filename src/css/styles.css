@@ -15,60 +15,20 @@
 @import url('./modal.css');
 
 :root {
- 
   --Dark-green: rgba(30, 40, 39, 1);
-  --Black: rgba(20, 20, 20, 1);
+  --Black: #141414;
   --B-g-color: #fbfbfb;
   --Main-color: #ffffff;
   --Price-color: rgba(20, 20, 20, 0.5);
-  --B-g-color-second: #EFEFEF;
-
+  --B-g-color-second: #efefef;
 }
 
 body {
   color: var(--Main-color);
-  background-color: var(--B-g-color);
+  background-color: var(--Black);
   font-family: 'Epilogue', sans-serif;
   font-size: 14px;
   line-height: 18px;
-}
-
-h1,
-h2,
-h3,
-h4,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-address {
-  font-style: normal;
-}
-
-button {
-  cursor: pointer;
-}
-
-.link {
-  display: block;
-}
-
-.list {
-  list-style: none;
 }
 
 .container {
@@ -82,79 +42,49 @@ button {
     max-width: 768px;
     padding: 0 32px;
   }
+  .section {
+    padding: 64px 0;
+  }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .container {
-    max-width: 1400px;
-    padding: 0 132px;
+    max-width: calc(1176px + 64px);
+  }
+  .section {
+    padding: 80px 0;
   }
 }
 
 .section {
   padding: 40px 0;
 }
-:root { 
-  --Dark-green: rgba(30, 40, 39, 1);
-  --Black: rgba(20, 20, 20, 1);
-  --B-g-color:  #FBFBFB;
-  --Main-color: #FFFFFF;
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
-body {
-  color: var(--Main-color);
-  background-color: var(--B-g-color);
-  font-family: 'Epilogue',sans-serif;
-  font-size: 14px;
-  Line-height: 18px;
-}
-
-h1,
-h2,
-h3,
-h4,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-address {
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('NeueMontreal-Regular.eot');
+  src: local('Neue Montreal Regular'), local('NeueMontreal-Regular'),
+    url('../fonts/NeueMontreal-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fontsNeueMontreal-Regular.woff2') format('woff2'),
+    url('../fontsNeueMontreal-Regular.woff') format('woff'),
+    url('../fontsNeueMontreal-Regular.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
 }
 
-button {
-  cursor: pointer;
-}
-
-.link {
-  display: block;
-}
-
-
-.list {
-  list-style: none;
-}
-
-
-.container {
-  
-  padding: 0 20 px;
-  margin: 0 auto;
-}
-.section {
-  padding: 40px 0;
+body {
+  margin: 0;
 }
