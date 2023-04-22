@@ -15,27 +15,12 @@
 @import url('./modal.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
-:root {
   --Dark-green: rgba(30, 40, 39, 1);
   --Black: rgba(20, 20, 20, 1);
   --B-g-color: #fbfbfb;
   --Main-color: #ffffff;
   --Price-color: rgba(20, 20, 20, 0.5);
+  --B-g-color-second: #efefef;
 }
 
 body {
@@ -44,44 +29,6 @@ body {
   font-family: 'Epilogue', sans-serif;
   font-size: 14px;
   line-height: 18px;
-}
-
-h1,
-h2,
-h3,
-h4,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-address {
-  font-style: normal;
-}
-
-button {
-  cursor: pointer;
-}
-
-.link {
-  display: block;
-}
-
-.list {
-  list-style: none;
 }
 
 .container {
@@ -106,4 +53,17 @@ button {
 
 .section {
   padding: 40px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
