@@ -24,6 +24,10 @@
   --footer-agreements-color: #c6cdd1;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--Main-color);
   background-color: var(--Black);
