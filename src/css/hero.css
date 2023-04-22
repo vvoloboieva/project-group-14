@@ -69,6 +69,7 @@
   width: 32px;
   height: 32px;
   padding: 7px;
+  stroke: var(--Main-color);
 }
 
 .hero-text {
