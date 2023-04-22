@@ -1,7 +1,6 @@
 .about-us-image {
   width: 335px;
   height: 365px;
-  outline: solid black;
 }
 .about-us-title {
   color: var(--Dark-green);
@@ -29,27 +28,19 @@
 .about-us-text.second {
   margin-bottom: 40px;
 }
-
+.about-us {
+  background-color: var(--B-g-color-second);
+}
 @media screen and (min-width: 768px) {
-  /* .container{
-    padding-left: 32px;
-    padding-right: 32px;;
-
-  } */
-  .section {
-    padding-top: 64px;
-    padding-bottom: 64px;
-  }
   .about-us-content {
     display: flex;
+    gap: 40px;
   }
   .about-us-title {
     display: block;
     font-size: 40px;
     line-height: 1.1;
-    margin-right: 40px;
     margin-bottom: 0;
-    width: 174px;
   }
   .about-us-paragraphs {
     display: flex;
@@ -57,24 +48,35 @@
   }
   .about-us-text.first {
     max-width: 220px;
+    margin-bottom: 40px;
   }
   .about-us-text.second {
     max-width: 250px;
+    margin-bottom: 40px;
   }
   .about-us-image {
     width: 704px;
     height: 465px;
-    outline: solid black;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  /* .container{
-  width: calc(1178px + 64px);
-} */
   .about-us-image {
-    width: 892px;
-    height: 500px;
-    outline: solid black;
+    max-width: 892px;
+    max-height: 500px;
+    margin-left: auto;
+  }
+  .about-us-content {
+    gap: 110px;
+  }
+  .about-us-paragraphs {
+    gap: 40px;
+  }
+  .about-us-text.first {
+    max-width: 439px;
+  }
+  .about-us-text.second {
+    max-width: 380px;
+    margin-right: 33px;
   }
 }
