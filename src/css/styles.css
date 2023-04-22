@@ -21,6 +21,7 @@
   --Main-color: #ffffff;
   --Price-color: rgba(20, 20, 20, 0.5);
   --B-g-color-second: #efefef;
+  --footer-agreements-color: #C6CDD1;
 }
 
 body {
@@ -44,10 +45,10 @@ body {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .container {
-    max-width: 1400px;
-    padding: 0 132px;
+    max-width: 1280px;
+    padding: 0 32px;
   }
 }
 
