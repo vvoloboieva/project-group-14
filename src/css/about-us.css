@@ -1,6 +1,9 @@
 .about-us-image {
   width: 335px;
   height: 365px;
+  background-image: url(/img/about-us-clock/watchspot.gif);
+  background-size: cover;
+  background-position: center;
 }
 .about-us-title {
   color: var(--Dark-green);
